@@ -5,7 +5,7 @@ The KM3NeT CLB Calibrator is a mechanism that automatically calibrates the magne
 ## Motivation
 Every DOM of the KM3NeT telescope is submerged near the bottom of the Mediterranean Sea and continually reports its orientation based on data from the magnetic compass located on its CLB. For the magnetic compass to work properly, a calibration routine must be carried out for every CLB before its DOM integration. Conventionally, this is done manually using a gyroscope-like tool, seen below.
 
-![](https://github.com/FK-MAD/KM3NeT_CLB_Calibrator/blob/main/Images/manual%20gyroscope.jpg)
+![50x50](https://github.com/FK-MAD/KM3NeT_CLB_Calibrator/blob/main/Images/manual%20gyroscope.jpg)
 
 This process is monotonous, tedious and provides inconsistent calibration accuracy. For these reasons, an automated system needed to be developed.
 
@@ -17,9 +17,12 @@ The design constraints that the automated system needed to satisfy were the foll
 
 ## Calibrator design
 The mechanism is composed of two sub-assemblies.
-1) A gyroscope-like mechanism that rotates the CLB. It is made entirely out of plastic parts to satisfy design constraint #1. Most parts are 3D printed, some are machined in a lathe, while some are standard plastic bolts, nuts and belts.
-2) A base for all electronics located ~1 meter away from the CLB.
-Actuation from sub-assembly B to A is achieved using 3 long plastic belts. Both sub-assemblies are secured on a wooden base with plastic bolts and nuts.
+1) Sub-assembly A: a gyroscope-like mechanism that rotates the CLB. It is made entirely out of plastic parts to satisfy design constraint #1. Most parts are 3D printed, some are machined in a lathe, while some are standard plastic bolts, nuts and belts.
+2) Sub-assembly B: a base for the stepper motors and other electronics located ~1 meter away from the CLB. Actuation between the stepper motors and the gyroscope-like mechanism is achieved using 3 long plastic belts.
+
+Both sub-assemblies are secured on a wooden base with plastic bolts and nuts. The two sub-assemblies are seen below.
+
+![|](https://github.com/FK-MAD/KM3NeT_CLB_Calibrator/blob/main/Images/CLB%20calibrator.png)
 
 The Arduino 
 Due to design constraint #1 the  
