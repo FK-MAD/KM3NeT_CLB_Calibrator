@@ -5,7 +5,7 @@ The KM3NeT CLB Calibrator is a mechanism that automatically calibrates the magne
 ## Motivation
 Every DOM of the KM3NeT telescope is submerged near the bottom of the Mediterranean Sea and continually reports its orientation based on data from the magnetic compass located on its CLB. For the magnetic compass to work properly, a calibration routine must be carried out for every CLB before its DOM integration. Conventionally, this is done manually using a gyroscope-like tool, seen below.
 
-![50x50](https://github.com/FK-MAD/KM3NeT_CLB_Calibrator/blob/main/Images/manual%20gyroscope.jpg)
+<img src="https://github.com/FK-MAD/KM3NeT_CLB_Calibrator/blob/main/Images/manual%20gyroscope.jpg" width="700">
 
 This process is monotonous, tedious and provides inconsistent calibration accuracy. For these reasons, an automated system needed to be developed.
 
@@ -22,10 +22,10 @@ The mechanism is composed of two sub-assemblies.
 
 Both sub-assemblies are secured on a wooden base with plastic bolts and nuts. The two sub-assemblies are seen below.
 
-![|](https://github.com/FK-MAD/KM3NeT_CLB_Calibrator/blob/main/Images/CLB%20calibrator.png)
+<img src="https://github.com/FK-MAD/KM3NeT_CLB_Calibrator/blob/main/Images/CLB%20calibrator.png" width="700">
 
-The Arduino 
-Due to design constraint #1 the  
+## Electronics
+Motion is achieved using three stepper motors each one controlling a rotational axis. Each motor is connected to a stepper driver on a CNC shield. Arduino UNO is used as the microcontroller and a small fan keeps the electronics cool.
 
 ## 
 This repository contains the files needed to manufacture the automatic calibration system.
