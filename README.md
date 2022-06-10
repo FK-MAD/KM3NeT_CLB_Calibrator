@@ -11,14 +11,14 @@ This process is monotonous, tedious and provides inconsistent calibration accura
 
 ## Design Constraints
 The design constraints that the automated system needed to satisfy were the following.
-1) No metal parts should exist near the CLB to be calibrated. This was to ensure that no interference occured with the earth's magnetic field during calibration.
+1) No metal parts should exist near the CLB. This was to ensure that no interference occured with the earth's magnetic field during calibration.
 2) The mechanism must perform a series of eight full 360° rotations about the vertical axis each one with the CLB placed in a different orientation.
 3) Each rotation must be smooth and last approximately 20s to ensure good data acquisition.
 
 ## Calibrator design
 The mechanism is composed of two sub-assemblies.
-A) A gyroscope-like mechanism that rotates the CLB. It is made entirely out of plastic parts to satisfy design constraint #1. Most parts are 3D printed, some are machined in a lathe, while some are standard plastic bolts, nuts and belts.
-B) A base for all electronics located ~1 meter away from the CLB.
+1) A gyroscope-like mechanism that rotates the CLB. It is made entirely out of plastic parts to satisfy design constraint #1. Most parts are 3D printed, some are machined in a lathe, while some are standard plastic bolts, nuts and belts.
+2) A base for all electronics located ~1 meter away from the CLB.
 Actuation from sub-assembly B to A is achieved using 3 long plastic belts. Both sub-assemblies are secured on a wooden base with plastic bolts and nuts.
 
 The Arduino 
