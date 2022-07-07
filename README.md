@@ -17,8 +17,8 @@ The design constraints that the automated system needed to satisfy were the foll
 
 ## Calibrator design
 The mechanism is composed of two sub-assemblies.
-1) Sub-assembly A: a gyroscope-like mechanism that rotates the CLB. It is made entirely out of plastic parts to satisfy design constraint #1. Most parts are 3D printed, some are machined in a lathe, while some are standard plastic bolts, nuts and belts.
-2) Sub-assembly B: a base for the stepper motors and other electronics located ~1 meter away from the CLB. Actuation between the stepper motors and the gyroscope-like mechanism is achieved using 3 long non-metalic belts.
+1) Sub-assembly A: a gyroscope-like mechanism that rotates the CLB. It is made entirely out of plastic parts to satisfy design constraint #1. Most parts are 3D printed, some are machined in a lathe, while some are standard plastic bolts, nuts and timing belts.
+2) Sub-assembly B: a base for the stepper motors and other electronics located ~1 meter away from the CLB. Actuation between the stepper motors and the gyroscope-like mechanism is achieved using 3 long non-metalic timing belts.
 
 Both sub-assemblies are secured on a wooden base with plastic bolts and nuts. The two sub-assemblies are seen below.
 
