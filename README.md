@@ -34,4 +34,4 @@ The folder [Assembly Files](https://github.com/FK-MAD/KM3NeT_CLB_Calibrator/tree
 Videos of the calibration system performing the calibration routine with a CLB mounted are shown below.
 
 ## Control of Stepper Motors
-Stepper motors are controled via [stepperControl.ino](stepperControl.ino). To run it, the [AccelStepper](https://www.airspayce.com/mikem/arduino/AccelStepper/index.html) library must be included.
+Stepper motors are controled via [stepperControl.ino](Code/stepperControl.ino). To run it, the [AccelStepper](https://www.airspayce.com/mikem/arduino/AccelStepper/index.html) library must be included.
