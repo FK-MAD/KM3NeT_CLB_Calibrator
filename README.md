@@ -17,8 +17,8 @@ The design constraints that the automated system needed to satisfy were the foll
 
 ## Calibrator design
 The mechanism is composed of two sub-assemblies.
-1) Sub-assembly A: a gyroscope-like mechanism that rotates the CLB. It is made entirely out of plastic parts to satisfy design constraint #1. Most parts are 3D printed, some are machined in a lathe, while some are standard plastic bolts, nuts and timing belts.
-2) Sub-assembly B: a base for the stepper motors and other electronics located ~1 meter away from the CLB. Actuation between the stepper motors and the gyroscope-like mechanism is achieved using 3 long non-metalic timing belts.
+1) A: a gyroscope-like mechanism that rotates the CLB. It is made entirely out of plastic parts to satisfy design constraint #1. Most parts are 3D printed, some are machined in a lathe, while some are standard plastic bolts, nuts and timing belts.
+2) B: a base for the stepper motors and other electronics located ~1 meter away from the CLB. Actuation between the stepper motors and the gyroscope-like mechanism is achieved using 3 long non-metalic timing belts.
 
 Both sub-assemblies are secured on a wooden base with plastic bolts and nuts. The two sub-assemblies are seen below.
 
@@ -33,6 +33,5 @@ The folder [Assembly Files](https://github.com/FK-MAD/KM3NeT_CLB_Calibrator/tree
 ## Control of Stepper Motors
 Stepper motors are controled via [stepperControl.ino](Code/stepperControl.ino). To run it, the [AccelStepper](https://www.airspayce.com/mikem/arduino/AccelStepper/index.html) library must be included.
 
-## Videos
-Videos of the calibration system performing the calibration routine with a CLB mounted are shown below.
-<video src="https://github.com/FK-MAD/KM3NeT_CLB_Calibrator/blob/main/Videos/short%20no%20CLB.mp4" width="700">
+## Video
+Short [video](Videos/short%20with%20CLB.mp4) (<25MB) of the calibration system performing part of the calibration routine. An old version of the mechanism in shown in the video. It has a short base, the electronics are near the CLB, and the mechanism is held in place using zip-ties.
