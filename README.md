@@ -35,4 +35,4 @@ Stepper motors are controled via [stepperControl.ino](Code/stepperControl.ino). 
 
 ## Videos
 Videos of the calibration system performing the calibration routine with a CLB mounted are shown below.
-<video src='https://github.com/FK-MAD/KM3NeT_CLB_Calibrator/blob/main/Videos/short%20no%20CLB.mp4'></video>
+<video src="https://github.com/FK-MAD/KM3NeT_CLB_Calibrator/blob/main/Videos/short%20no%20CLB.mp4" width="700">
