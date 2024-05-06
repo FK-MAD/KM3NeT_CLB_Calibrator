@@ -30,8 +30,9 @@ Motion is achieved using three stepper motors each one controlling a rotational 
 ## Assembly Files
 The folder [Assembly Files](https://github.com/FK-MAD/KM3NeT_CLB_Calibrator/tree/main/Assembly%20Files) contains the CAD files (SolidWorks) of the automatic calibration system. Download the whole folder and open file "Calibrator Assembly v5.SLDASM".
 
-## Videos
-Videos of the calibration system performing the calibration routine with a CLB mounted are shown below.
-
 ## Control of Stepper Motors
 Stepper motors are controled via [stepperControl.ino](Code/stepperControl.ino). To run it, the [AccelStepper](https://www.airspayce.com/mikem/arduino/AccelStepper/index.html) library must be included.
+
+## Videos
+Videos of the calibration system performing the calibration routine with a CLB mounted are shown below.
+<video src='Videos/short%20no%20CLB.mp4' width=180/>
