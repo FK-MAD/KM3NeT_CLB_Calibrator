@@ -24,11 +24,11 @@ Both sub-assemblies are secured on a wooden base with plastic bolts and nuts. Th
 
 <img src="https://github.com/FK-MAD/KM3NeT_CLB_Calibrator/blob/main/Images/CLB%20calibrator.png" width="700">
 
-## Electronics
-Motion is achieved using three stepper motors each one controlling a rotational axis. Each motor is connected to a stepper driver on a CNC shield. Arduino UNO is used as the microcontroller and a small fan keeps the electronics cool.
-
 ## Assembly Files
 The folder [Assembly Files](https://github.com/FK-MAD/KM3NeT_CLB_Calibrator/tree/main/Assembly%20Files) contains the CAD files (SolidWorks) of the automatic calibration system. Download the whole folder and open file "Calibrator Assembly v5.SLDASM".
+
+## Electronics
+Motion is achieved using three stepper motors each one controlling a rotational axis. Each motor is connected to a stepper driver on a CNC shield. Arduino UNO is used as the microcontroller and a small fan keeps the electronics cool.
 
 ## Control of Stepper Motors
 Stepper motors are controled via [stepperControl.ino](Code/stepperControl.ino). To run it, the [AccelStepper](https://www.airspayce.com/mikem/arduino/AccelStepper/index.html) library must be included.
