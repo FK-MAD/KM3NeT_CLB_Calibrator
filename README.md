@@ -35,3 +35,13 @@ Stepper motors are controled via [stepperControl.ino](Code/stepperControl.ino). 
 
 ## Video
 Short [video](Videos/short%20with%20CLB.mp4) (<25MB) of the calibration system performing part of the calibration routine. An old version of the mechanism in shown in the video. It has a short base, the electronics are near the CLB, and the mechanism is held in place using zip-ties.
+
+## License
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License][cc-by-nc-nd].
+
+[![CC BY-NC-ND 4.0][cc-by-nc-nd-image]][cc-by-nc-nd]
+
+[cc-by-nc-nd]: http://creativecommons.org/licenses/by-nc-nd/4.0/
+[cc-by-nc-nd-image]: https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png
+[cc-by-nc-nd-shield]: https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg
