@@ -27,5 +27,5 @@ Both sub-assemblies are secured on a wooden base with plastic bolts and nuts. Th
 ## Electronics
 Motion is achieved using three stepper motors each one controlling a rotational axis. Each motor is connected to a stepper driver on a CNC shield. Arduino UNO is used as the microcontroller and a small fan keeps the electronics cool.
 
-## 
-This repository contains the files needed to manufacture the automatic calibration system.
+## Assembly Files
+The folder [Assembly Files](https://github.com/FK-MAD/KM3NeT_CLB_Calibrator/blob/main/Assembly Files) repository contains the files needed to manufacture the automatic calibration system.
