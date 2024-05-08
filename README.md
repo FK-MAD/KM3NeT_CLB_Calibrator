@@ -24,7 +24,7 @@ Both sub-assemblies are secured on a wooden base with plastic bolts and nuts. Th
 
 <img src="https://github.com/FK-MAD/KM3NeT_CLB_Calibrator/blob/main/Images/CLB%20calibrator.png" width="700">
 
-## Assembly Files
+## Assembly CAD Files
 The folder [Assembly Files](https://github.com/FK-MAD/KM3NeT_CLB_Calibrator/tree/main/Assembly%20Files) contains the CAD files (SolidWorks) of the automatic calibration system. Download the whole folder and open file "Calibrator Assembly v5.SLDASM".
 
 ## Electronics
